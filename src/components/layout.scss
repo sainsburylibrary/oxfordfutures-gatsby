@@ -1,6 +1,168 @@
 //Here you can customize bootstrap
-$primary: #663399;
+// $primary: #663399;
+$primary: #55629f;
 @import "~bootstrap/scss/bootstrap";
 
+div.alert {
+  margin-bottom: 0;
+  background-color: #e1cf61;
+  border-radius: 0;
+  border: none;
+}
 
+div.alert-warning p {
+  font-size: 14px;
+  text-align: center;
+  margin-bottom: 0;
+}
 
+div.card {
+  margin-bottom: 16px;
+}
+
+blockquote {
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+blockquote:before {
+  color: #ccc;
+  content: "\201C";
+  font-size: 4em;
+  font-family: Georgia, serif;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+blockquote p {
+  display: inline;
+}
+
+div.bg-image {
+  background-image: url("../images/the-future-library-banner-nored-right.jpg");
+  height: 153px;
+}
+
+ul.address {
+  list-style-type: none;
+  padding-left: 0;
+  margin-bottom: 1rem;
+}
+
+/* Local overrides for Bootstrap - JP 2022-10-04 */
+@import url("https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap");
+body,
+button,
+input,
+select,
+textarea {
+  color: #404040;
+}
+body {
+  // background: #333;
+  // background-color: #55629f;
+  // font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 0.9rem;
+  font-weight: 300;
+}
+
+h3 {
+  line-height: 18px;
+  color: #606060;
+}
+
+h1.site-title {
+  font-family: "Major Mono Display", monospace;
+  text-transform: lowercase;
+  margin-bottom: 0;
+}
+h1.site-title a span {
+  text-transform: capitalize;
+}
+h1.site-title a {
+  color: #fff !important;
+}
+h2.site-description {
+  color: #fff !important;
+}
+h1.site-title a,
+h2.site-description a {
+  text-decoration: none;
+}
+
+.site-description {
+  font: 13px/20px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+}
+
+.alert-warning {
+  text-align: center;
+  --bs-alert-color: #404040;
+  --bs-alert-bg: #e1cf61;
+  --bs-alert-border-color: #e1cf61;
+  padding: 10px 20px;
+  margin: 0;
+}
+
+.alert {
+  --bs-alert-border: none;
+  --bs-alert-border-radius: 0;
+  border: none;
+  border-radius: 0;
+}
+
+.site-content article {
+  border-bottom: solid 1px #ddd;
+  padding-left: 40px;
+  margin: 0;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: white;
+}
+
+.site-content .entry-content blockquote,
+.site-content .comment-content blockquote {
+  margin-left: -40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-top: 20px;
+  padding-bottom: 1px;
+  padding-right: 20px;
+  padding-left: 80px;
+  background: #f7f7f7;
+  position: relative;
+  display: inline-block;
+}
+
+/* Media rules */
+/* >= 1090px */
+@media (min-width: 1000px) {
+  .navbar-collapse {
+    width: 1020px;
+  }
+  #page {
+    width: 1020px;
+  }
+
+  .navbar-expand-lg .navbar-collapse {
+    width: 1020px;
+  }
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm {
+    width: 1020px;
+    background-color: white;
+  }
+
+  .navbar-expand-lg .navbar-nav {
+    flex-direction: row;
+    max-width: 1020px;
+  }
+}
+
+.navbar {
+  background: #3a3a3a;
+}
