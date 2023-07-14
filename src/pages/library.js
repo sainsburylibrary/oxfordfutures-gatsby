@@ -171,4 +171,6 @@ const LibraryPage = () => (
 
 export default LibraryPage
 
-export const Head = () => <Seo title="About Gatsby Bootsrap 5 starter" />
+export const Head = () => (
+  <Seo title="Using the library | Oxford Futures Library" />
+)

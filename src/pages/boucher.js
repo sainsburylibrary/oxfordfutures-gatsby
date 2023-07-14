@@ -25,14 +25,8 @@ const BoucherPage = () => (
           developed with Peter Senge and others. Many of the items within this
           collection directly reference Pierre Wack, Shell and scenario
           planning, and as such, provide a valuable complement to the{" "}
-          <a href="../pierre-wack-memorial-library/index.html">
-            Pierre Wack Memorial Library
-          </a>{" "}
-          and{" "}
-          <a href="../boucher-futures-research-library/index.html">
-            Boucher Futures Research Library
-          </a>
-          .
+          <Link to="/wack">Pierre Wack Memorial Library</Link> and{" "}
+          <Link to="/boucher">Boucher Futures Research Library</Link>.
         </p>
 
         <p>
@@ -40,7 +34,7 @@ const BoucherPage = () => (
           <em>
             Who Really Matters: The Core Group Theory of Power, Privilege, and
             Success
-          </em>
+          </em>{" "}
           (2003), <em>The Dance of Change</em> (1999) and{" "}
           <em>Schools That Learn</em> (2000). From 2005-2020, he served as
           Editor-in-Chief of <em>strategy+business</em> magazine.
@@ -77,4 +71,6 @@ const BoucherPage = () => (
 
 export default BoucherPage
 
-export const Head = () => <Seo title="About Gatsby Bootsrap 5 starter" />
+export const Head = () => (
+  <Seo title="Boucher Futures Research Library | Oxford Futures Library" />
+)

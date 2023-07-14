@@ -46,4 +46,4 @@ const ContactPage = () => (
 
 export default ContactPage
 
-export const Head = () => <Seo title="Contact us | Oxford Futures Library" />
+export const Head = () => <Seo title="About Gatsby Bootsrap 5 starter" />

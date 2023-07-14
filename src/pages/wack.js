@@ -60,14 +60,14 @@ const WackPage = () => (
           <li>
             <a href="pierre-wack-memorial-library---books.xlsx">
               Download the Pierre Wack Memorial Library catalogue - Books
-            </a>
+            </a>{" "}
             (Microsoft Excel, 102KB)
           </li>
           <li>
             <a href="pierre-wack-memorial-library---non-monographs.xlsx">
               Download the Pierre Wack Memorial Library catalogue -
               Non-Monographs
-            </a>
+            </a>{" "}
             (Microsoft Excel, 272KB)
           </li>
           <li>
@@ -98,4 +98,6 @@ const WackPage = () => (
 
 export default WackPage
 
-export const Head = () => <Seo title="About Gatsby Bootsrap 5 starter" />
+export const Head = () => (
+  <Seo title="Pierre Wack Memorial Library | Oxford Futures Library" />
+)

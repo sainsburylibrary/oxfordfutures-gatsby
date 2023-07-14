@@ -4,29 +4,31 @@
   </a>
 </p>
 <h1 align="center">
-   Gatsby Bootstrap 5 starter
+   Oxford Futures – Gatsby Bootstrap 5 Version
 </h1>
 
+This version of the Oxford Futures website uses Gatsby and the Bootstrap 5 starter. See below for details.
 
-Minimal bootstrap 5 and Gatsby configuration with SCSS support. 
+## Gatsby Bootstrap 5 starter
+
+Minimal bootstrap 5 and Gatsby configuration with SCSS support.
 
 Demo here : https://gatsbystarterbootstrap5.gatsbyjs.io/
 
-## 📋 Available options
+### 📋 Available options
 
 - You can theme bootstrap via `src/components/layout.scss`
 
-## 🚀 How to install
+### 🚀 How to install
 
-Use the Gatsby CLI to create a new site. 
+Use the Gatsby CLI to create a new site.
 
 ```shell
 # create a new Gatsby site using the default starter
 gatsby new gatsby-starter-bootstrap-5 https://github.com/r-ichard/gatsby-starter-bootstrap-5
 ```
 
-
-## ✏️ How to develop locally
+### ✏️ How to develop locally
 
 1.  Navigate into your new site’s directory and start it up.
 
@@ -43,6 +45,6 @@ gatsby new gatsby-starter-bootstrap-5 https://github.com/r-ichard/gatsby-starter
 
     Open the `gatsby-starter-bootstrap-5` directory in your code editor of choice and edit `src/pages/index.js`. Save your changes and the browser will update in real time!
 
-## 💡 How to contribute 
+### 💡 How to contribute
 
 Any feedback is welcome and helpful.

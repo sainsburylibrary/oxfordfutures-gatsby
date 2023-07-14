@@ -136,6 +136,27 @@ h2.site-description a {
   display: inline-block;
 }
 
+.navbar {
+  background: #3a3a3a;
+}
+
+footer.site-footer {
+  padding: 2rem;
+  border-top: 1px solid #ddd;
+}
+
+blockquote + p {
+  margin-left: 0.5rem;
+}
+
+h3 {
+  margin-top: 1rem;
+}
+
+p + h3 {
+  margin-top: 2rem;
+}
+
 /* Media rules */
 /* >= 1090px */
 @media (min-width: 1000px) {
@@ -163,6 +184,13 @@ h2.site-description a {
   }
 }
 
-.navbar {
-  background: #3a3a3a;
+/* Media rules */
+/* <= 600px */
+@media (max-width: 600px) {
+  .site-title {
+    margin-top: -2rem;
+  }
+  .navbar-brand {
+    white-space: break-spaces;
+  }
 }

@@ -38,7 +38,8 @@ const Layout = ({ children }) => {
                 having been relocated to the Bodleian Libraries&rsquo;
                 Collections Storage Facility (CSF).
                 <br />
-                Please see <a href="/library">Using the library</a> for details.
+                Please see <Link to="/library">Using the library</Link> for
+                details.
               </p>
               <button
                 type="button"
