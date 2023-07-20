@@ -71,7 +71,7 @@ const WackPage = () => (
             (Microsoft Excel, 272KB)
           </li>
           <li>
-            <a href="../use-of-the-library/index.html">Using the library</a>
+            <Link to="/library">Using the library</Link>
           </li>
         </ul>
         <p>
@@ -91,7 +91,6 @@ const WackPage = () => (
           allowfullscreen
         ></iframe>
       </div>
-      <Link to="/">Go back to the homepage</Link>
     </div>
   </Layout>
 )

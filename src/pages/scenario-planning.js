@@ -1,5 +1,5 @@
 import * as React from "react"
-import { Link } from "gatsby"
+// import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import { Seo } from "../components/seo"
@@ -97,7 +97,6 @@ const ScenarioPage = () => (
         </p>
         {/* End Main content */}
       </div>
-      <Link to="/">Go back to the homepage</Link>
     </div>
   </Layout>
 )

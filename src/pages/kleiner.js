@@ -66,7 +66,6 @@ const KleinerPage = () => (
         </ul>
         {/* End Main content */}
       </div>
-      <Link to="/">Go back to the homepage</Link>
     </div>
   </Layout>
 )

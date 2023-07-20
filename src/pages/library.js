@@ -96,14 +96,8 @@ const LibraryPage = () => (
         <h2>How will I know what to request?</h2>
         <p>
           Catalogues are available to download as MS Excel files for both the{" "}
-          <a href="../pierre-wack-memorial-library/index.html">
-            Pierre Wack Memorial Library
-          </a>{" "}
-          and the{" "}
-          <a href="../boucher-futures-research-library/index.html">
-            Boucher Futures Research Library
-          </a>
-          .
+          <Link to="/wack">Pierre Wack Memorial Library</Link> and the{" "}
+          <Link to="/boucher">Boucher Futures Research Library</Link>.
         </p>
         <p>
           You can browse these catalogues, or search for keywords (e.g. “Shell”)
@@ -126,7 +120,7 @@ const LibraryPage = () => (
         <p>
           A descriptive catalogue, and links to the archival boxes on SOLO, are
           available to download separately for the{" "}
-          <a href="../art-kleiner-archive/index.html">Art Kleiner Archive</a>.
+          <Link to="../kleiner">Art Kleiner Archive</Link>.
         </p>
 
         <h2>How else can I find items?</h2>
@@ -164,7 +158,6 @@ const LibraryPage = () => (
         </ul>
         {/* End Main content */}
       </div>
-      <Link to="/">Go back to the homepage</Link>
     </div>
   </Layout>
 )
