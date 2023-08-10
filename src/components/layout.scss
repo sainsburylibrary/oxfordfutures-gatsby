@@ -76,16 +76,24 @@ body {
 
 h3 {
   line-height: 18px;
-  color: #606060;
+  // color: #999;
 }
 
-h1,
 h2,
 h3,
 h4,
 h5 {
   font-family: $ibm-plex-sans;
   margin-bottom: 1rem;
+}
+
+h2.accordion-header {
+  color: #606060;
+  margin: 0;
+}
+
+h2.accordion-header button {
+  font-weight: 500;
 }
 
 .container h1 {
@@ -120,6 +128,7 @@ h2.site-description a {
 .site-description {
   font: 13px/20px "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 300;
+  margin-top: 0;
 }
 
 .alert-warning {

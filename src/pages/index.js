@@ -7,6 +7,7 @@ const IndexPage = () => (
   <Layout>
     <section className="py-5 text-left container">
       <div className="row">
+        <h1>Welcome</h1>
         <p>
           The Oxford Futures Library is part of the collection of the{" "}
           <a href="https://www.bodleian.ox.ac.uk/libraries/business">
@@ -50,7 +51,7 @@ const IndexPage = () => (
           <div className="accordion-item">
             <h2 className="accordion-header" id="headingOne">
               <button
-                className="accordion-button"
+                className="accordion-button collapsed"
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#collapseOne"

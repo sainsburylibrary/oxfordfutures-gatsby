@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: "/oxfordfutures-gatsby",
   siteMetadata: {
     title: `Oxford Futures Library`,
     description: `The Oxford Futures Library is part of the collection of the Sainsbury Library, the University of Oxford’s dedicated Business and Management library.`,
