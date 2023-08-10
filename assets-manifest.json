@@ -26,8 +26,10 @@
   "framework-299f2393c99f7933f9f7.js.map": "framework-299f2393c99f7933f9f7.js.map",
   "framework.js": "framework-299f2393c99f7933f9f7.js",
   "static/the-future-library-banner-nored-right.jpg": "static/the-future-library-banner-nored-right-15541c63aa738c6e962ad517e9e74313.jpg",
-  "styles.css": "styles.2317e6ce82008105ff7c.css",
+  "static/the-future-library-banner.jpg": "static/the-future-library-banner-15541c63aa738c6e962ad517e9e74313.jpg",
+  "styles.css": "styles.0dcdcb209c521cf9f57b.css",
   "webpack-runtime-0a1d4171388cd7c87a77.js.map": "webpack-runtime-0a1d4171388cd7c87a77.js.map",
+  "webpack-runtime-1e6ae070c0e64049fe28.js.map": "webpack-runtime-1e6ae070c0e64049fe28.js.map",
   "webpack-runtime-acc225770357137595c0.js.map": "webpack-runtime-acc225770357137595c0.js.map",
-  "webpack-runtime.js": "webpack-runtime-acc225770357137595c0.js"
+  "webpack-runtime.js": "webpack-runtime-1e6ae070c0e64049fe28.js"
 }
