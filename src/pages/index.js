@@ -1,4 +1,5 @@
 import * as React from "react"
+import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import { Seo } from "../components/seo"
@@ -17,15 +18,9 @@ const IndexPage = () => (
           library.
         </p>
         <p>
-          It houses the{" "}
-          <a href="pierre-wack-memorial-library/index.html">
-            Pierre Wack Memorial Library
-          </a>{" "}
-          and the{" "}
-          <a href="boucher-futures-research-library/index.html">
-            Boucher Futures Research Library
-          </a>
-          , gifted to Green Templeton College by Napier Collyns and Dr Angela
+          It houses the <Link to="/wack">Pierre Wack Memorial Library</Link> and
+          the <Link to="/boucher">Boucher Futures Research Library</Link>,
+          gifted to Green Templeton College by Napier Collyns and Dr Angela
           Wilkinson. Green Templeton College and Saïd Business School
           acknowledge their generous support in bringing these collections to
           Oxford.
@@ -33,18 +28,18 @@ const IndexPage = () => (
         <p>
           These two significant and complementary collections consist of nearly
           6,000 items relating to futures and{" "}
-          <a href="welcome/scenario-planning/index.html">scenario planning</a>{" "}
-          practice and research. Together, they provide a unique and valuable
-          insight into the nascence and continuing resonance of the discipline
-          and its architects.
+          <Link to="/scenario-planning">scenario planning</Link> practice and
+          research. Together, they provide a unique and valuable insight into
+          the nascence and continuing resonance of the discipline and its
+          architects.
         </p>
         <p>
           The library also includes the{" "}
-          <a href="art-kleiner-archive/index.html">Art Kleiner Archive</a>, a
-          collection of letters, reports and other documents which was donated
-          by renowned author, journalist and editorial consultant Art Kleiner to
-          Green Templeton College, and deposited in the Oxford Futures Library.
-          Green Templeton College and Saïd Business School are grateful for the
+          <Link to="/kleiner">Art Kleiner Archive</Link>, a collection of
+          letters, reports and other documents which was donated by renowned
+          author, journalist and editorial consultant Art Kleiner to Green
+          Templeton College, and deposited in the Oxford Futures Library. Green
+          Templeton College and Saïd Business School are grateful for the
           generous donation of this distinct archive.
         </p>
         <div className="accordion" id="accordionExample">

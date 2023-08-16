@@ -3,6 +3,7 @@ import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 import { Link } from "gatsby"
 import { useLocation } from "@reach/router"
+import { withPrefix } from "gatsby"
 
 import Navbar from "./navbar"
 import Footer from "./footer"
@@ -11,7 +12,12 @@ import "./layout.scss"
 const Layout = ({ children }) => {
   const location = useLocation()
 
-  const isIndexPage = location.pathname === "/"
+  // Added import withPrefix and changed line below to get info box to make alert-warning appear on GitHub Pages
+  // If not deploying to GH Pages, remove import line and change:
+  // === withPrefix("/")
+  // to:
+  // === "/"
+  const isIndexPage = location.pathname === withPrefix("/")
 
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
