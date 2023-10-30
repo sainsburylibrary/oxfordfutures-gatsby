@@ -6,7 +6,7 @@ import { Seo } from "../components/seo"
 
 const LibraryPage = () => (
   <Layout>
-    <div className="container  my-5">
+    <div className="container my-5">
       <div className="container">
         <h1>Using the library</h1>
         {/* Main content */}
@@ -85,7 +85,7 @@ const LibraryPage = () => (
             <div
               id="flush-collapseTwo"
               className="accordion-collapse collapse"
-              data-bs-parent="#accordionFlushLibrary"
+              // data-bs-parent="#accordionFlushLibrary"
             >
               <div className="accordion-body">
                 <p>The CSF is a storage facility, not a library.</p>
@@ -116,7 +116,7 @@ const LibraryPage = () => (
             <div
               id="flush-collapseThree"
               className="collapse multi-collapse"
-              data-bs-parent="#accordionFlushLibrary"
+              // data-bs-parent="#accordionFlushLibrary"
             >
               <div className="accordion-body">
                 {" "}
@@ -178,7 +178,7 @@ const LibraryPage = () => (
             <div
               id="flush-collapseFour"
               className="accordion-collapse collapse"
-              data-bs-parent="#accordionFlushLibrary"
+              // data-bs-parent="#accordionFlushLibrary"
             >
               <div className="accordion-body">
                 <p>
@@ -228,8 +228,8 @@ const LibraryPage = () => (
             </h2>
             <div
               id="flush-collapseFive"
-              className="accordion-button collapsed"
-              data-bs-parent="#accordionFlushLibrary"
+              className="accordion-collapse collapse"
+              // data-bs-parent="#accordionFlushLibrary"
             >
               <div className="accordion-body">
                 <p>
@@ -269,7 +269,7 @@ const LibraryPage = () => (
             <div
               id="flush-collapseSix"
               className="accordion-collapse collapse"
-              data-bs-parent="#accordionFlushLibrary"
+              // data-bs-parent="#accordionFlushLibrary"
             >
               <div className="accordion-body">
                 {" "}

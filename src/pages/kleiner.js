@@ -51,13 +51,13 @@ const KleinerPage = () => (
           <li>
             <a href="art-kleiner-catalogue.pdf">
               Download The Art Kleiner Archive: A Descriptive Catalogue
-            </a>
+            </a>{" "}
             (PDF, 1.2MB)
           </li>
           <li>
-            <a href="links-to-solo-for-the-art-kleiner-archive.xlsx">
+            <a href="../../links-to-solo-for-the-art-kleiner-archive.xlsx">
               Download Links to SOLO for the Art Kleiner Archive
-            </a>
+            </a>{" "}
             (Microsoft Excel, 20KB)
           </li>
           <li>

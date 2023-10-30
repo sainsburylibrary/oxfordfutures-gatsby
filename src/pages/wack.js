@@ -58,13 +58,13 @@ const WackPage = () => (
         <h3>Explore the Pierre Wack Memorial Library</h3>
         <ul>
           <li>
-            <a href="pierre-wack-memorial-library---books.xlsx">
+            <a href="../../pierre-wack-memorial-library---books.xlsx">
               Download the Pierre Wack Memorial Library catalogue - Books
             </a>{" "}
             (Microsoft Excel, 102KB)
           </li>
           <li>
-            <a href="pierre-wack-memorial-library---non-monographs.xlsx">
+            <a href="../../pierre-wack-memorial-library---non-monographs.xlsx">
               Download the Pierre Wack Memorial Library catalogue -
               Non-Monographs
             </a>{" "}

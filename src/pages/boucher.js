@@ -54,7 +54,7 @@ const BoucherPage = () => (
             (PDF, 1.2MB)
           </li>
           <li>
-            <a href="links-to-solo-for-the-art-kleiner-archive.xlsx">
+            <a href="../../links-to-solo-for-the-art-kleiner-archive.xlsx">
               Download Links to SOLO for the Art Kleiner Archive
             </a>{" "}
             (Microsoft Excel, 20KB)
