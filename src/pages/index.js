@@ -27,11 +27,12 @@ const IndexPage = () => (
         </p>
         <p>
           These two significant and complementary collections consist of nearly
-          6,000 items relating to futures and{" "}
-          <Link to="/scenario-planning">scenario planning</Link> practice and
+          6,000 items relating to futures and scenario planning practice and
           research. Together, they provide a unique and valuable insight into
           the nascence and continuing resonance of the discipline and its
-          architects.
+          architects. To find out more about the history of scenario planning,
+          read <Link to="/scenario-planning">this short article</Link> by
+          Professor Rafael Ramírez.
         </p>
         <p>
           The library also includes the{" "}
@@ -102,7 +103,7 @@ const IndexPage = () => (
                       <strong>Rodrigo Dal Borgo</strong>,{" "}
                       <em>
                         Marie Sklodowska-Curie Fellow, PhD candidate and
-                        Assistant Researcher,
+                        Assistant Researcher
                         <br />
                         Centre for Applied Ethics, University of Deusto, Bilbao
                       </em>
@@ -132,7 +133,7 @@ const IndexPage = () => (
                       <strong>Muriel Le Roux</strong>,{" "}
                       <em>Historian of science, technology and innovation</em>
                       <br />
-                      IHMC, Paris
+                      <em>IHMC, Paris</em>
                     </p>
                   </div>
                 </div>

@@ -10,59 +10,92 @@ const BoucherPage = () => (
       <div className="container">
         <h1>Boucher Futures Research Library</h1>
         <p>
-          The Art Kleiner Archive is a collection of letters, reports and other
-          documents which was donated by renowned author, journalist and
-          editorial consultant Art Kleiner to Green Templeton College, and
-          deposited in the Oxford Futures Library.
+          Wayne I. Boucher&rsquo;s career included roles at the RAND
+          Corporation, the Institute for the Future and The Futures Group, which
+          he co-founded in 1971.
         </p>
-
         <p>
-          The collection consists of original publications and correspondence
-          between prominent scenario planners as well as annotated drafts of
-          Kleiner&rsquo;s work, amassed during the writing of{" "}
-          <em>The Age of Heretics</em> (1996) and
-          <em>The Fifth Discipline Fieldbook</em> (1994), which Kleiner
-          developed with Peter Senge and others. Many of the items within this
-          collection directly reference Pierre Wack, Shell and scenario
-          planning, and as such, provide a valuable complement to the{" "}
-          <Link to="/wack">Pierre Wack Memorial Library</Link> and{" "}
-          <Link to="/boucher">Boucher Futures Research Library</Link>.
+          The Boucher Futures Research Library represents forty-five years of
+          compilation and curation. The University of Oxford is grateful to Dr
+          Angela Wilkinson for having acquired the collection, which is
+          accompanied by a catalogue offering Boucher&rsquo;s descriptive and
+          critical annotations. The following is an edited version of the
+          Preface to the catalogue, written by the author at the time of the
+          sale of the collection in October 2008.
         </p>
 
-        <p>
-          Kleiner&rsquo;s other distinguished publications include{" "}
-          <em>
-            Who Really Matters: The Core Group Theory of Power, Privilege, and
-            Success
-          </em>{" "}
-          (2003), <em>The Dance of Change</em> (1999) and{" "}
-          <em>Schools That Learn</em> (2000). From 2005-2020, he served as
-          Editor-in-Chief of <em>strategy+business</em> magazine.
-        </p>
+        <blockquote>
+          <p>
+            This catalogue reflects an attempt, spread over some forty-five
+            years, to build a serious working library on futures research and
+            related subjects. Though limited almost entirely to publications in
+            the English language, the coverage of the main approaches, theories,
+            methodologies, applications, and appraisals is unusually complete.
+            This would seem to be true despite the fact that the coverage tends
+            to peter out in more recent years, a result not only of a less
+            vigorous acquisition effort on my part, but also of a truly striking
+            decline in the output of works that are worth having because they
+            contribute something substantially new and valuable to the field.
+          </p>
+          <br />
+          <br />
+          <p>
+            This is not to say, however, that the collection is balanced, in the
+            sense that it provides a fair sampling of the entire futures
+            literature: for instance, I have generally ignored publications
+            intended to tell the reader what the future will or should be like.
+            Most of this literature not only has a half-life of less than three
+            months, but it also typically makes highly imperfect use of
+            historical data, relies on a dubious methodology or fails to provide
+            an adequate description of it, often is created with a special
+            interest or special audience in mind, and, as sadly, pays only the
+            slightest attention to the systematic development of alternative
+            futures or rigorous policy analysis. Included, however, are
+            noteworthy bestsellers in this genre, as well as publications on
+            subjects that have been particular substantive interests of mine
+            professionally from time to time, such as war and peace, financial
+            services, governmental innovation, etc.
+          </p>
+          <br />
+          <br />
+          <p>
+            A special feature of this catalogue is the annotations. I have not
+            annotated everything, and many of the annotations are descriptive
+            rather than critical, but for the rest I have not hesitated to
+            praise or damn without reservation. Most of these comments were
+            written especially for this catalogue, but the rest were written
+            over the years for a variety of other purposes, including
+            off-the-record private communications. For old hands and newcomers
+            alike, these comments, now on the record, will I hope prove valuable
+            or at least stimulating.
+          </p>
+          <br />
+          <br />
+          <p>Wayne I. Boucher</p>
+          <br />
+          <p>October 2008</p>
+        </blockquote>
 
-        <p>
-          Green Templeton College and Saïd Business School are grateful for the
-          generous donation of this distinct archive.
-        </p>
-
-        <h3>Explore the Art Kleiner Archive</h3>
+        <h3>Explore the Boucher Futures Research Library</h3>
         <ul>
           <li>
-            <a href="art-kleiner-catalogue.pdf">
-              Download The Art Kleiner Archive: A Descriptive Catalogue
+            <a
+              href="/oxfordfutures-gatsby/boucher-futures-research-library---catalogue.xlsx"
+              download
+            >
+              Download the Boucher Futures Research Library catalogue
             </a>{" "}
-            (PDF, 1.2MB)
+            (Microsoft Excel 245KB)
           </li>
           <li>
-            <a href="../../links-to-solo-for-the-art-kleiner-archive.xlsx">
-              Download Links to SOLO for the Art Kleiner Archive
-            </a>{" "}
-            (Microsoft Excel, 20KB)
-          </li>
-          <li>
-            <a href="../use-of-the-library/index.html">Using the library</a>
+            <Link to="/library">Using the library</Link>
           </li>
         </ul>
+
+        <p>
+          A hard copy of Boucher&rsquo;s annotated catalogue, including the full
+          Preface, is available for consultation in the Sainsbury Library.
+        </p>
       </div>
     </div>
   </Layout>

@@ -21,7 +21,7 @@ const KleinerPage = () => (
           The collection consists of original publications and correspondence
           between prominent scenario planners as well as annotated drafts of
           Kleiner&rsquo;s work, amassed during the writing of{" "}
-          <em>The Age of Heretics</em> (1996) and
+          <em>The Age of Heretics</em> (1996) and{" "}
           <em>The Fifth Discipline Fieldbook</em> (1994), which Kleiner
           developed with Peter Senge and others. Many of the items within this
           collection directly reference Pierre Wack, Shell and scenario
@@ -49,19 +49,22 @@ const KleinerPage = () => (
         <h3>Explore the Art Kleiner Archive</h3>
         <ul>
           <li>
-            <a href="art-kleiner-catalogue.pdf">
+            <a href="/oxfordfutures-gatsby/art-kleiner-catalogue.pdf" download>
               Download The Art Kleiner Archive: A Descriptive Catalogue
             </a>{" "}
             (PDF, 1.2MB)
           </li>
           <li>
-            <a href="../../links-to-solo-for-the-art-kleiner-archive.xlsx">
+            <a
+              href="/oxfordfutures-gatsby/links-to-solo-for-the-art-kleiner-archive.xlsx"
+              download
+            >
               Download Links to SOLO for the Art Kleiner Archive
             </a>{" "}
             (Microsoft Excel, 20KB)
           </li>
           <li>
-            <a href="../use-of-the-library/index.html">Using the library</a>
+            <Link to="/library">Using the library</Link>
           </li>
         </ul>
         {/* End Main content */}

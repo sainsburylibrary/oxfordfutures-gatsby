@@ -12,12 +12,12 @@ const LibraryPage = () => (
         {/* Main content */}
         <p>
           From 2014-2020, the Oxford Futures Library was located at Saïd
-          Business School&rsquo;s Executive Education campus at Egrove Park.
+          Business School&rsquo;s Executive Education Centre at Egrove Park in
+          Kennington.
         </p>
         <p>
           Due to flood damage to the room which housed the collection, and the
-          forthcoming evacuation of Egrove Park due to the development of the
-          School&rsquo;s{" "}
+          development of Saïd Business School&rsquo;s{" "}
           <a href="https://www.sbs.ox.ac.uk/about-us/school/global-leadership-centre">
             Global Leadership Centre
           </a>
@@ -52,7 +52,7 @@ const LibraryPage = () => (
             <div
               id="flush-collapseOne"
               className="accordion-collapse collapse"
-              data-bs-parent="#accordionFlushLibrary"
+              // data-bs-parent="#accordionFlushLibrary"
             >
               <div className="accordion-body">
                 <p>
@@ -92,9 +92,9 @@ const LibraryPage = () => (
                 <p>
                   This means that individual books and/or boxes of archival
                   materials must be requested from the CSF to a library in
-                  central Oxford. When an item has arrived in the library, it
-                  will be available for consultation. Items are strictly for
-                  reference only &ndash; they may not be taken away.
+                  Oxford. When an item has arrived in the library, it will be
+                  available for consultation. Items are strictly for reference
+                  only &ndash; they may not be taken away.
                 </p>
               </div>
             </div>
@@ -115,7 +115,7 @@ const LibraryPage = () => (
             </h2>
             <div
               id="flush-collapseThree"
-              className="collapse multi-collapse"
+              className="accordion-collapse collapse"
               // data-bs-parent="#accordionFlushLibrary"
             >
               <div className="accordion-body">
@@ -133,16 +133,12 @@ const LibraryPage = () => (
                 </p>
                 <p>
                   In SOLO, find the Oxford Futures Library book or archival box
-                  which you require. You can then request it to be delivered
-                  either to the{" "}
+                  which you require. You can then request it to be delivered to
+                  the{" "}
                   <a href="https://www.bodleian.ox.ac.uk/libraries/business">
                     Sainsbury Library
                   </a>{" "}
-                  at Park End Street or to the David Reading Room in the{" "}
-                  <a href="https://www.bodleian.ox.ac.uk/libraries/weston">
-                    Weston Library
-                  </a>{" "}
-                  on Broad Street. Books may also be requested to additional
+                  at Park End Street. Books may also be requested to additional
                   locations.
                 </p>
                 <p>

@@ -46,25 +46,31 @@ const WackPage = () => (
         <p>
           The Pierre Wack Memorial Library was founded by Pierre&rsquo;s friend
           and colleague Napier Collyns and was first located at the Global
-          Business Network offices in The Hague, Netherlands. It incorporates
-          Pierre&rsquo;s collection of books, as well as accumulated archival
-          materials such as papers, drafts, handwritten notes and published
-          writings. The collection was donated to Green Templeton College by
-          Napier Collyns in 2005 and includes additional donations from
-          colleagues at Shell Group Planning. It now forms part of the Oxford
-          Futures Library.
+          Business Network offices in The Hague, the Netherlands. It
+          incorporates Pierre&rsquo;s collection of books, as well as
+          accumulated archival materials such as papers, drafts, handwritten
+          notes and published writings. The collection was donated to Green
+          Templeton College by Napier Collyns in 2005 and includes additional
+          donations from colleagues at Shell Group Planning. It now forms part
+          of the Oxford Futures Library.
         </p>
 
         <h3>Explore the Pierre Wack Memorial Library</h3>
         <ul>
           <li>
-            <a href="../../pierre-wack-memorial-library---books.xlsx">
+            <a
+              href="/oxfordfutures-gatsby/pierre-wack-memorial-library---books.xlsx"
+              download
+            >
               Download the Pierre Wack Memorial Library catalogue - Books
             </a>{" "}
             (Microsoft Excel, 102KB)
           </li>
           <li>
-            <a href="../../pierre-wack-memorial-library---non-monographs.xlsx">
+            <a
+              href="/oxfordfutures-gatsby/pierre-wack-memorial-library---non-monographs.xlsx"
+              download
+            >
               Download the Pierre Wack Memorial Library catalogue -
               Non-Monographs
             </a>{" "}
@@ -76,7 +82,7 @@ const WackPage = () => (
         </ul>
         <p>
           A hard copy of the catalogue is available for consultation in the
-          Sainsbury Library. Please ask a member of library staff.
+          Sainsbury Library.
         </p>
         <h3>Video: Scenario Planning in Turbulent Times, Pierre Wack</h3>
 
