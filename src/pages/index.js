@@ -30,9 +30,11 @@ const IndexPage = () => (
           6,000 items relating to futures and scenario planning practice and
           research. Together, they provide a unique and valuable insight into
           the nascence and continuing resonance of the discipline and its
-          architects. To find out more about the history of scenario planning,
-          read <Link to="/scenario-planning">this short article</Link> by
-          Professor Rafael Ramírez.
+          architects. To find out more about the history of scenario planning,{" "}
+          <Link to="/scenario-planning">
+            read this short article by Professor Rafael Ramírez
+          </Link>
+          .
         </p>
         <p>
           The library also includes the{" "}

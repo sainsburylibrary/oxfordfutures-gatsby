@@ -90,11 +90,17 @@ const LibraryPage = () => (
               <div className="accordion-body">
                 <p>The CSF is a storage facility, not a library.</p>
                 <p>
-                  This means that individual books and/or boxes of archival
-                  materials must be requested from the CSF to a library in
-                  Oxford. When an item has arrived in the library, it will be
-                  available for consultation. Items are strictly for reference
-                  only &ndash; they may not be taken away.
+                  This means that books and/or boxes of archival materials must
+                  be requested from the CSF to the Sainsbury Library. When an
+                  item has arrived in the library, it will be available for
+                  consultation. Items are strictly for reference only &ndash;
+                  they may not be taken away.
+                </p>
+                <p>
+                  If consulting archival boxes, you will first be asked to
+                  complete a conditions of access form, which explains your
+                  responsibilities in relation to data protection, copyright and
+                  photography.
                 </p>
               </div>
             </div>
@@ -139,7 +145,11 @@ const LibraryPage = () => (
                     Sainsbury Library
                   </a>{" "}
                   at Park End Street. Books may also be requested to additional
-                  locations.
+                  locations and are eligible for the{" "}
+                  <a href="https://www.bodleian.ox.ac.uk/services/remote-access/scan-deliver">
+                    Scan and Deliver
+                  </a>{" "}
+                  service.
                 </p>
                 <p>
                   Items are usually delivered the next working day
