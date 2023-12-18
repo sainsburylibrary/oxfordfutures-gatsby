@@ -97,10 +97,11 @@ const LibraryPage = () => (
                   they may not be taken away.
                 </p>
                 <p>
-                  If consulting archival boxes, you will first be asked to
+                  If consulting archival materials, you will first be asked to
                   complete a conditions of access form, which explains your
                   responsibilities in relation to data protection, copyright and
-                  photography.
+                  photography. This form must be completed before you are
+                  granted access to the materials.
                 </p>
               </div>
             </div>
