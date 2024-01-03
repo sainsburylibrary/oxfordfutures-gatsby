@@ -3,7 +3,7 @@ import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 import { Link } from "gatsby"
 import { useLocation } from "@reach/router"
-import { withPrefix } from "gatsby"
+// import { withPrefix } from "gatsby"
 
 import Navbar from "./navbar"
 import Footer from "./footer"
@@ -17,7 +17,7 @@ const Layout = ({ children }) => {
   // === withPrefix("/")
   // to:
   // === "/"
-  const isIndexPage = location.pathname === withPrefix("/")
+  const isIndexPage = location.pathname === "/"
 
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
